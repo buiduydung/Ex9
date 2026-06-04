@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.3s;
+}
+
+.light {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.profile-card {
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  color: #111827;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dark .profile-card {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #2563eb;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.status {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.online {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.offline {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+li {
+  background-color: #e5e7eb;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dark li {
+  background-color: #374151;
+}
+
+.like-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.dark .like-text {
+  color: #60a5fa;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
