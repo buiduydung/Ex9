@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.app > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 35px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.simpleCard {
+  width: 620px;
+  max-width: 100%;
+  margin: 20px auto;
+  display: flex;
+  border: 2px solid #4f46e5;
+  background-color: white;
+}
+
+.imageBox {
+  width: 140px;
+  height: 120px;
+  background-color: #fff3b0;
+  border: 2px solid #facc15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox span {
+  font-size: 38px;
+  font-weight: bold;
+  color: #facc15;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardContent {
+  flex: 1;
+}
+
+.cardTitle {
+  margin: 0;
+  padding: 10px 20px;
+  color: #f97316;
+  font-size: 38px;
+  border: 2px solid #fdba74;
+}
+
+.cardDescription {
+  margin: 0;
+  padding: 10px 20px;
+  color: #9ca3af;
+  font-size: 24px;
+  border: 2px solid #d1d5db;
+}
+
+.website {
+  width: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.websiteHeader {
+  background-color: #f28c28;
+  padding: 25px 0 5px;
+}
+
+.logoBox {
+  width: 360px;
+  max-width: 80%;
+  margin: 0 auto 10px;
+  background-color: white;
+  padding: 25px;
+}
+
+.logoBox h1 {
+  margin: 0;
+  color: #f97316;
+}
+
+.websiteHeader nav {
+  margin-top: 10px;
+}
+
+.websiteHeader a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.websiteMain {
+  padding: 30px;
+  background-color: white;
+}
+
+.websiteMain h2 {
+  margin-bottom: 10px;
+}
+
+.websiteFooter {
+  background-color: #f6cc7a;
+  padding: 20px;
+  color: white;
+}
